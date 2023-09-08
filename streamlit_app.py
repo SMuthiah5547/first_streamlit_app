@@ -1,3 +1,11 @@
-import streamlit
+import streamlit as st
 
-streamlit.title('My Parents New Healthy Diner')
+
+
+st.title ("My Parents New Healthy Diner")
+st.header("this is the markdown")
+st.markdown("this is the header")
+st.subheader("this is the subheader")
+st.caption("this is the caption")
+st.code("x=2021")
+st.latex(r''' a+a r^1+a r^2+a r^3 ''')
